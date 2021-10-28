@@ -1,0 +1,62 @@
+/* body {
+  background-color: blue;
+} */
+
+body {
+  margin: 0;
+  text-align: center; /*doesn't work with elems that have a width set*/
+  font-family: 'Merriweather', serif;
+}
+
+/* div {
+  background-color: #E4F9F5;
+} */
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*class*/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  /* left: 200px; */
+  right: 300px;
+  top: 50px;
+}
+
+.pro {
+text-decoration: underline;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+/* .bottom-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+} */
+
+/* .middle-container {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+} */
